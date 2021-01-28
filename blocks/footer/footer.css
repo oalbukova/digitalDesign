@@ -1,0 +1,5 @@
+.footer {
+  flex-shrink: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 15px auto 0;
+}

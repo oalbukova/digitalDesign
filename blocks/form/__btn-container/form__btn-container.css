@@ -1,0 +1,9 @@
+.form__btn-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #C4C4C4;
+  min-height: 72px;
+  padding: 20px 20px 0;
+  box-sizing: border-box;
+  width: 100%;
+}

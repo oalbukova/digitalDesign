@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="Ольга Альбукова" name="author"/>
+  <meta
+    content="Тестовое задание Ольги Альбуковой для Digital Design"
+    name="description"
+  />
+  <link href="index.css" rel="stylesheet"/>
+  <title>Тестовое задание для Digital Design</title>
+</head>
+
+<body>
+<div class="page">
+  <!-- header-->
+  <header class="header page__header">
+    <h1 class="header__title">Тестовое задание</h1>
+  </header>
+  <!--main-->
+  <main class="main">
+    <!--menu-->
+    <section class="menu main__menu">
+      <ul class="menu__list">
+        <li class="menu__item" tabindex="0">Элемент меню</li>
+        <li class="menu__item" tabindex="1">Элемент меню с наведением</li>
+        <li class="menu__item" tabindex="2">Еще один элемент у которого очень длинный текст</li>
+        <li class="menu__item" tabindex="3">Еще один элемент</li>
+        <li class="menu__item" tabindex="4">Еще один элемент</li>
+      </ul>
+    </section>
+
+    <!--form-->
+    <form action="#" autocomplete="on" class="form main__form" id="registration" method="post" name="registration">
+      <h1 class="form__title">Регистрация</h1>
+      <fieldset class="form__container">
+        <label class="form__label">E-mail<input class="form__input" placeholder="example@site.domain"
+                                                type="email"></label>
+        <fieldset class="form__password-container">
+          <label class="form__label">Пароль<input class="form__input form__input_small form__input_password"
+                                                  minlength="8" placeholder="password"
+                                                  type="password"></label>
+          <label class="form__label">Повторите пароль<input class="form__input form__input_small" minlength="8"
+                                                            placeholder="password"
+                                                            type="password"></label>
+        </fieldset>
+        <label class="form__label">ФИО<input class="form__input" maxlength="200" minlength="2"
+                                             pattern="[A-Za-zА-Яа-яЁё -]*" placeholder="Игорев Игорь Игоревич"
+                                             type="text"></label>
+        <label class="form__label">Возраст<input class="form__input form__input_small" max="120" min="1"
+                                                 placeholder="18"
+                                                 type="number"></label>
+      </fieldset>
+      <div class="form__btn-container">
+        <button class="form__btn form__btn_submit" type="submit">
+          Отправить
+        </button>
+        <button class="form__btn form__btn_reset" type="reset">
+          Отмена
+        </button>
+      </div>
+    </form>
+
+    <!--Stepper-->
+    <nav>
+      <ol class="cd-breadcrumb triangle">
+        <li><a href="#">Шаг 1</a></li>
+        <li class="current"><span>Шаг 2</span></li>
+        <li><span>Шаг 3</span></li>
+      </ol>
+    </nav>
+
+  </main>
+
+  <!--footer-->
+  <footer class="footer">
+    <p class="footer__author">&#169; 2021. Ольга Альбукова</p>
+  </footer>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

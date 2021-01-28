@@ -1,0 +1,7 @@
+@import url(./__menu/main__menu.css);
+@import url(./__form/main__form.css);
+
+.main {
+  flex: auto;
+  padding: 0 20px;
+}

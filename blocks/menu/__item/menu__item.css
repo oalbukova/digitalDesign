@@ -1,0 +1,33 @@
+.menu__item {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  align-self: stretch;
+}
+
+.menu__item:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.menu__item:hover {
+  background: #9C9C9C;
+  cursor: pointer;
+}
+
+.menu__item:first-child:hover {
+  border-radius: 10px 10px 0 0;
+}
+
+.menu__item:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.menu__item:active {
+  color: white;
+}
+
+.menu__item:focus {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+
